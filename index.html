@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-lg-6 items-area">
+            <h1>Drop Items</h1>
+            <div class="drop-items">
+                <div id="red" class="box" draggable="true"></div>
+                <div id="yellow" class="box" draggable="true"></div>
+                <div id="chocolate" class="box" draggable="true"></div>
+            </div>
+        </div>
+        <div class="col-lg-6 zone">
+            <h1>Drop Zone</h1>
+            <div class="main-box">
+
+            </div>
+        </div>
+        <div class="col-lg-4 inp-area">
+            <label for="">Red</label><br>
+            <input id="redColor" type="text"><br>
+            <label for="">Green</label><br>
+            <input id="greenColor" type="text"><br>
+            <label for="">Blue</label><br>
+            <input id="blueColor" type="text"><br>
+            <button>Submit</button>
+        </div>
+        <div class="col-lg-3">
+            <h1>Custom box</h1>
+            <div class="custom-box" draggable="true"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
